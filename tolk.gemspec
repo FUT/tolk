@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.homepage = 'http://github.com/tolk/tolk'
 
   s.platform = Gem::Platform::RUBY
-  s.add_dependency('will_paginate')
+  s.add_dependency('kaminari')
 
   if File.exists?('UPGRADING')
     s.post_install_message = File.read("UPGRADING")
